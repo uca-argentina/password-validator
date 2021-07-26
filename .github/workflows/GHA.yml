@@ -3,6 +3,8 @@ name: CI
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+
+
 on: [push, pull_request]
       
 jobs:
@@ -20,7 +22,10 @@ jobs:
           smalltalk-version: ${{ matrix.smalltalk }}
       - run: smalltalkci -s ${{ matrix.smalltalk }}
         shell: bash
+
         timeout-minutes: 6
+
+
   finish:
     needs: build
     runs-on: ubuntu-latest
