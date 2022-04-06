@@ -7,5 +7,5 @@ Class {
 { #category : #tests }
 DummyTest >> testDummy [
 	"Something to comment"
-	self assert: Dummy new isDummy
+	self deny: Dummy new isDummy
 ]
