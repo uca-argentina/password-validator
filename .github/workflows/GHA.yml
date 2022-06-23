@@ -1,11 +1,9 @@
 name: CI
 
-
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 on: [push, pull_request]
-
       
 jobs:
   build:
@@ -24,8 +22,6 @@ jobs:
       - run: smalltalkci -s ${{ matrix.smalltalk }}
         shell: bash
         timeout-minutes: 6
-
-
 
   finish:
     needs: build
