@@ -2,13 +2,14 @@
 
 ##Test comment 
 ## comment
+## comment 2
 ##Another test comment
 
 ![GHA Status](https://github.com/uca-is2/password-validator/actions/workflows/GHA.yml/badge.svg)
 [![Coverage Status](https://coveralls.io/repos/github/uca-is2/password-validator/badge.svg?branch=master)](https://coveralls.io/github/uca-is2/password-validator?branch=master)
 
 #Test comment
-
+## test comment 2
 ## Metacello
 
 ```smalltalk
