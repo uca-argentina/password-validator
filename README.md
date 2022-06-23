@@ -2,6 +2,7 @@
 
 ##Test comment 
 ## comment
+## comment 2
 ##Another test comment
 
 ![GHA Status](https://github.com/uca-is2/password-validator/actions/workflows/GHA.yml/badge.svg)

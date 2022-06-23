@@ -1,10 +1,13 @@
 name: CI
 
+
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+
 on: [push, pull_request]
       
+
 jobs:
   build:
     runs-on: ubuntu-latest
