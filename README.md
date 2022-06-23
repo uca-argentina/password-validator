@@ -1,7 +1,7 @@
 # Ingenieria del Software II - Password Validator
 
 ##Test comment 
-
+## comment
 ##Another test comment
 
 ![GHA Status](https://github.com/uca-is2/password-validator/actions/workflows/GHA.yml/badge.svg)
