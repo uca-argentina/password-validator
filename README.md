@@ -6,6 +6,7 @@
 #Test comment
 ## test comment 2
 ## Metacello
+## test comment hoy
 
 ```smalltalk
 Metacello new
